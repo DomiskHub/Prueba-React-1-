@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+
+* {
+  font-family: "Lato", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.main {
+  background-color: rgb(27, 27, 27);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 150px;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  text-align: center;
+  transition: transform 0.5s;
+}
+
+.card-body {
+  background-color: rgb(207, 207, 207);
+  width: 100%;
+}
+
+.card img {
+  max-height: 500px;
+  object-fit: cover;
+  aspect-ratio: 3/5;
+}
+.card:hover {
+  transform: scale(1.03);
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  margin: 40px;
+  gap: 20px;
+}
+
+.search-title {
+  color: white;
+  margin-top: 30px;
+}
+
+.form-control {
+  max-width: 800px;
+}
+
+.img-portrait {
+  width: 1600px;
+  height: 550px;
+}
+
+.footer {
+  color: white;
+  margin: 30px;
+}
